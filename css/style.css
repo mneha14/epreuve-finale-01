@@ -3,6 +3,7 @@ main{
 }
 
 svg g{
+	stroke-dasharray: 120;
 	transform-origin: 50% 50%;
 	animation: anim01 1.7s linear infinite;
 }
@@ -10,15 +11,6 @@ svg g{
 @keyframes anim01{
 	to{
 		transform:rotate(360deg);
+		stroke-dashoffset: 120;
 	}
 }
-/*svg polyline,
-svg line,
-svg path {
-  fill: none;
-  stroke: blue;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: 0.2s;
-}
-*/
