@@ -3,7 +3,7 @@ main{
 }
 
 svg g{
-	//transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
 	animation: anim01 1.7s linear infinite;
 }
 
