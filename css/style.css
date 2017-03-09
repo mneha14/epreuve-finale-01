@@ -1,0 +1,14 @@
+svg {
+  width: 30%;
+  height: 30%;
+  margin-bottom: 5%;
+}
+svg polyline,
+svg line,
+svg path {
+  fill: none;
+  stroke: blue;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: 0.2s;
+}
