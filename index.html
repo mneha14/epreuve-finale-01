@@ -14,7 +14,26 @@
 		<header>
 		</header>
 		<main>
-				<article><img src="images_svg/figure.svg"></article>	
+				<!--<article><img src="images_svg/figure.svg"></article>-->
+				<article>
+				<svg width="500px" height="500px" xml:lang="fr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   				<title>figure</title>
+				   <defs>
+				   	<g id="figure" stroke="blue" stroke-width="0">
+				  		<circle cx="125" cy="125" r="40" fill="red" />
+				  		<ellipse cx="125" cy="125" rx="12" ry="60" fill="Chartreuse" />
+				  		<ellipse cx="125" cy="125" rx="60" ry="12" fill="Chartreuse" />
+				  		
+				  	</g>
+
+				  </defs>
+
+				  <use x="150" y="0" xlink:href="#figure"/>
+				  <use x="300" y="125" xlink:href="#figure"/>
+				  <use x="0" y="125" xlink:href="#figure"/>
+				  <use x="150" y="250" xlink:href="#figure"/>
+
+				</svg></article>	
 		</main>
 		
 	</body>

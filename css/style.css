@@ -1,9 +1,18 @@
-/*svg {
-  width: 30%;
-  height: 30%;
-  margin-bottom: 5%;
+main{
+	text-align: center;
 }
-svg polyline,
+
+svg g{
+	transform-origin: 50% 50%;
+	animation: anim01 1.7s linear infinite;
+}
+
+@keyframes anim01{
+	to{
+		transform:rotate(360deg);
+	}
+}
+/*svg polyline,
 svg line,
 svg path {
   fill: none;
@@ -13,6 +22,3 @@ svg path {
   transition: 0.2s;
 }
 */
-main{
-	text-align: center;
-}
