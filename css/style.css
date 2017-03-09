@@ -1,16 +1,31 @@
+/*pour centrer les elements dans la page*/
 main{
 	text-align: center;
 }
 
+
+/*Animation de la rotation*/
 svg g{
-	stroke-dasharray: 120;
 	transform-origin: 50% 50%;
-	animation: anim01 1.7s linear infinite;
+	animation: anim01 2s linear infinite;
+	
 }
 
 @keyframes anim01{
 	to{
 		transform:rotate(360deg);
-		stroke-dashoffset: 120;
+		
+	}
+}
+
+/*Animation de la bordure*/
+svg{
+	stroke-dasharray: 255;
+	animation: anim02 5s linear alternate-reverse infinite;
+}
+
+@keyframes anim02{
+	to{
+		stroke-dashoffset: 255;
 	}
 }

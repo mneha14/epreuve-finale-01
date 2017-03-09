@@ -2,32 +2,34 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Exercice 2 - Programmation d'animation II</title>
+		<title>Épreuve finale volet  #1</title>
 		<!-- Ajustement de la taille du viewport-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Désactivation du mode de compatibilité avec des versions antérieures pour IE-->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!-- Importation du script pour la police d'icônes Awesome-->
+
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header>
 		</header>
 		<main>
-				<!--<article><img src="images_svg/figure.svg"></article>-->
 				<article>
+				<!-- SVG -->
 				<svg width="500px" height="500px" xml:lang="fr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
    				<title>figure</title>
+   				
 				   <defs>
 				   	<g id="figure" stroke="blue" stroke-width="3">
+				   		<!--cercle-->
 				  		<circle cx="125" cy="125" r="40" fill="red" />
+				  		<!--elipse-->
 				  		<ellipse cx="125" cy="125" rx="12" ry="60" fill="Chartreuse" />
 				  		<ellipse cx="125" cy="125" rx="60" ry="12" fill="Chartreuse" />
-
 				  	</g>
-
 				  </defs>
 
+				  <!-- BALISE USE -->
 				  <use x="150" y="0" xlink:href="#figure"/>
 				  <use x="300" y="125" xlink:href="#figure"/>
 				  <use x="0" y="125" xlink:href="#figure"/>
