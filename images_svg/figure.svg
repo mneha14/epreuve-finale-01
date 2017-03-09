@@ -5,7 +5,9 @@
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Cercle</title>
-  <circle cx="100" cy="100" r="40" stroke="black" stroke-width="0" fill="red" />
-  <ellipse cx="100" cy="100" rx="12" ry="60" stroke-width="0" fill="Chartreuse" />
-  <ellipse cx="100" cy="100" rx="60" ry="12" stroke-width="0" fill="Chartreuse" />
+   	<g stroke="blue" stroke-width="0">
+  		<circle cx="100" cy="100" r="40" fill="red" />
+  		<ellipse cx="100" cy="100" rx="12" ry="60" fill="Chartreuse" />
+  		<ellipse cx="100" cy="100" rx="60" ry="12" fill="Chartreuse" />
+  	</g>
 </svg>
