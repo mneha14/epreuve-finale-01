@@ -5,9 +5,13 @@
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Cercle</title>
-   	<g stroke="blue" stroke-width="0">
+   <defs>
+   	<g id="figure" stroke="blue" stroke-width="0">
   		<circle cx="100" cy="100" r="40" fill="red" />
   		<ellipse cx="100" cy="100" rx="12" ry="60" fill="Chartreuse" />
   		<ellipse cx="100" cy="100" rx="60" ry="12" fill="Chartreuse" />
   	</g>
+  </defs>
+
+  <use x="100" y="100" xlink:href="#figure"/>
 </svg>
